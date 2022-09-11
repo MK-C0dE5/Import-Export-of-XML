@@ -1,8 +1,8 @@
 <?php
     $server="localhost";
     $user="root";
-    $passwd="khadde";
-    $dbname="bonafide";
+    $passwd="";
+    $dbname="feedback";
 
     $conn=mysqli_connect($server,$user,$passwd,$dbname);
     if(!$conn){
