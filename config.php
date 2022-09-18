@@ -2,7 +2,7 @@
     $server="localhost";
     $user="root";
     $passwd="";
-    $dbname="xml";
+    $dbname="feedback";
 
     $conn=mysqli_connect($server,$user,$passwd,$dbname);
     if(!$conn){

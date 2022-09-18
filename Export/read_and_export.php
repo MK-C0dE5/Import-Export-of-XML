@@ -1,6 +1,6 @@
 <?php
 require_once "../config.php";
-$query = "SELECT * FROM data1";
+$query = "SELECT * FROM form_responses";
 $result = mysqli_query($conn, $query);
 $items = array();
 

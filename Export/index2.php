@@ -23,32 +23,20 @@ include("read_and_export.php");
         </div>
     </div>
 <br/>
-    <table id="" class="table table-striped table-bordered">
+<table id="" class="table table-striped table-bordered">
         <tr>
             <th>ID</th>
             <th>Start Time</th> 
             <th>Completion Time</th> 
             <th>Email</th>
-            <th>Name</th>
-            <th>Subject UnderStanding</th>
-            <th>Syllabus Coverage</th>
-            <th>Practical Assessment</th>
-            <th>Office</th>
-            <th>Library</th> 
         </tr>
     <tbody>
         <?php foreach($items as $item) { ?>
         <tr>
-            <td><?php echo $item ['ID']; ?></td>
-            <td><?php echo $item ['Start time']; ?></td>
-            <td><?php echo $item ['Completion time']; ?></td>
-            <td><?php echo $item ['Email']; ?></td>
-            <td><?php echo $item ['Name']; ?></td>
-            <td><?php echo $item ['Subject Understanding']; ?></td>
-            <td><?php echo $item ['Syllabus Coverage']; ?></td>
-            <td><?php echo $item ['Practical Assessment']; ?></td>
-            <td><?php echo $item ['Office']; ?></td>
-            <td><?php echo $item ['Library']; ?></td>
+            <td><?php echo $item ['student_id']; ?></td>
+            <td><?php echo $item ['form_id']; ?></td>
+            <td><?php echo $item ['filldate']; ?></td>
+            <td><?php echo $item ['response_json']; ?></td>
         </tr>
         <?php } ?>
     </tbody>
